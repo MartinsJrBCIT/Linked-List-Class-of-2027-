@@ -27,7 +27,7 @@ class LinkedList:
             self.insertAtBegin(data)
         else:
             while(current_node != None and position+1 != index):
-                position = position+1
+                position = position + 1
                 current_node = current_node.next
  
             if current_node != None:
@@ -56,7 +56,7 @@ class LinkedList:
             current_node.data = val
         else:
             while(current_node != None and position != index):
-                position = position+1
+                position = position + 1
                 current_node = current_node.next
    
             if current_node != None:
